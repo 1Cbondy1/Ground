@@ -1,6 +1,6 @@
 # Ground
 
-A mobile responsive web application that connects users in the Austin area with local coffee shops looking to dispose of their used grounds in a responsible way. Our users are compost centers, farmers, and gardeners looking for an eco-friendly (and free) substitute for harmful fertilizers.. This project can be viewed [here](https://michaelbeat.github.io/Project_1/).
+A mobile responsive web application that connects users in the Austin area with local coffee shops looking to dispose of their used grounds in a responsible way. Our users are compost centers, farmers, and gardeners looking for an eco-friendly (and free) substitute for harmful fertilizers.. This project can be viewed [here](https://1cbondy1.github.io/Ground/).
 
 ## Team Members
 Brian Duong - Frontend Dev & Project Manager  
