@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link id="favicon" rel="icon" href="images/fav-150.png" type="image/png" sizes="150x150">
+  <link id="favicon" rel="icon" href="../images/fav-150.png" type="image/png" sizes="150x150">
   <title>Ground</title>
   <!-- Styling -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- Custom Styling -->
   <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-database.js"></script>
 
 </head>
 <body>
@@ -60,15 +63,12 @@
         <p id="results"></p>
     </div>
 
-
   </body>
 
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- Materialize JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <!-- Firebase Reference -->
-  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
   <script type="text/javascript">
 
   $(document).ready(function(){
@@ -76,39 +76,6 @@
   });
 
   $('#results').append(businessInfo);
-
-//   var business = "Coffee";
-  
-//   var myurl = "https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?location=austin&limit=1&term=" + business;
-//         $.ajax({
-//             url: myurl,
-//             headers: {
-//             'Authorization':'Bearer Uensef7YvWBDrkLIVTvHbF1RPf2IN989gIxMN9HEvEV8VyXjp4TZ_V8faI3tItTCrIheVIeD-XjS78gcmrmtJ9I0MvJ1kEjU6x1KzdaiUzynr8rMEwSVs9WUlrXlW3Yx',
-//         },
-//             method: 'GET',
-//             dataType: 'json',
-//             success: function(data){
-//                 var totalresults = data.total;
-//                 if (totalresults > 0){
-//                     $.each(data.businesses, function(i, item) {
-//                         var phone = item.display_phone;
-//                         var name = item.name;
-//                         var address = item.location.address1;
-//                         var city = item.location.city;
-//                         var state = item.location.state;
-//                         var zipcode = item.location.zip_code;
-//                         $('#name-text').append(name);
-//                         $('#address-text').append(address + " ");
-//                         $('#address-text').append(city + ", ");
-//                         $('#address-text').append(state + " ");
-//                         $('#address-text').append(zipcode);
-//                         $('#phone-text').append(phone);
-//                     });
-//                 } else {
-//                     $('#results').append('<h5>We discovered no results!</h5>');
-//                 }
-//             }
-//         });
 
 
   </script>

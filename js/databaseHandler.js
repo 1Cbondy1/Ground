@@ -16,15 +16,29 @@ var allRefs = [];
   This is the setup function for our firebase database.
   It initialized the database when we load this file.
 */
+
+// function setup(){
+// 	var config = {
+// 		apiKey: "AIzaSyARduvv2i7ud8f-RcBT-ZrXsxrnZTd1OdY",
+// 		authDomain: "recycle-app-ea4f9.firebaseapp.com",
+// 		databaseURL: "https://recycle-app-ea4f9.firebaseio.com",
+// 		projectId: "recycle-app-ea4f9",
+// 		storageBucket: "recycle-app-ea4f9.appspot.com",
+// 		messagingSenderId: "1069829280623"
+// 	};
+// 	firebase.initializeApp(config);
+// 	database = firebase.database();
+// }
+
 function setup(){
-	var config = {
-		apiKey: "AIzaSyARduvv2i7ud8f-RcBT-ZrXsxrnZTd1OdY",
-		authDomain: "recycle-app-ea4f9.firebaseapp.com",
-		databaseURL: "https://recycle-app-ea4f9.firebaseio.com",
-		projectId: "recycle-app-ea4f9",
-		storageBucket: "recycle-app-ea4f9.appspot.com",
-		messagingSenderId: "1069829280623"
-	};
+  var config = {
+    apiKey: "AIzaSyBj1Ap4xbkvkqFVAmaG0XbJPuzaHFfGYcE",
+    authDomain: "ground-1554048711195.firebaseapp.com",
+    databaseURL: "https://ground-1554048711195.firebaseio.com",
+    projectId: "ground-1554048711195",
+    storageBucket: "ground-1554048711195.appspot.com",
+    messagingSenderId: "231809225017"
+  };
 	firebase.initializeApp(config);
 	database = firebase.database();
 }
