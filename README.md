@@ -1,13 +1,13 @@
-# Grounds
+# Ground
 
-Mobile responsive web application built to provide a platform that connects local businesses & restaurants looking to get rid of their coffee grounds and people looking to recycle and fertalize those grounds. This project can be viewed [here](https://michaelbeat.github.io/Project_1/).
+A mobile responsive web application that connects users in the Austin area with local coffee shops looking to dispose of their used grounds in a responsible way. Our users are compost centers, farmers, and gardeners looking for an eco-friendly (and free) substitute for harmful fertilizers.. This project can be viewed [here](https://michaelbeat.github.io/Project_1/).
 
 ## Team Members
-Brian Duong - Project Manager/Frontend  
-Isaac Hormel - Backend  
-Clayton Bondy - Frontend  
-Christopher Quionnes - Backend  
-Michael Beat - GitHub Manager/Backend  
+Brian Duong - Frontend Dev & Project Manager
+Clayton Bondy - Frontend Dev & UX/UI Design
+Isaac Hormel - Backend Dev
+Christopher Quionnes - Backend Dev
+Michael Beat - Backend Dev & GitHub Manager
 
 ## APIs
 * [Google Maps](https://developers.google.com/maps/documentation/) - Used to display map
@@ -15,7 +15,7 @@ Michael Beat - GitHub Manager/Backend
 
 ## Libraries
 * [jQuery](https://jquery.com/) - JavaScript library used for DOM manipulation
-* [Materialize](https://materializecss.com/) - Front-end framework
+* [Materialize](https://materializecss.com/) - Frontend framework
 * [Firebase](https://firebase.google.com/) - Database storage
 
 ## Tasks Breakdown
