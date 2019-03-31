@@ -3,11 +3,11 @@
 A mobile responsive web application that connects users in the Austin area with local coffee shops looking to dispose of their used grounds in a responsible way. Our users are compost centers, farmers, and gardeners looking for an eco-friendly (and free) substitute for harmful fertilizers.. This project can be viewed [here](https://michaelbeat.github.io/Project_1/).
 
 ## Team Members
-Brian Duong - Frontend Dev & Project Manager
-Clayton Bondy - Frontend Dev & UX/UI Design
-Isaac Hormel - Backend Dev
-Christopher Quionnes - Backend Dev
-Michael Beat - Backend Dev & GitHub Manager
+Brian Duong - Frontend Dev & Project Manager  
+Clayton Bondy - Frontend Dev & UX/UI Design 
+Isaac Hormel - Backend Dev  
+Christopher Quionnes - Backend Dev  
+Michael Beat - Backend Dev & GitHub Manager 
 
 ## APIs
 * [Google Maps](https://developers.google.com/maps/documentation/) - Used to display map
